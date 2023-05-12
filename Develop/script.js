@@ -2,15 +2,19 @@
 var generateBtn = document.querySelector("#generate");
 var pswdLength= prompt("How many characters would you like your password to be?");
 console.log (pswdLength);
-var lowercase= prompt("Do you want to include lowercase letters?");
+var lowercase= confirm("Do you want to include lowercase letters?");
 console.log(lowercase);
-var uppercase= prompt("Do you want to include uppercase letters?");
+var uppercase= confirm("Do you want to include uppercase letters?");
 console.log(uppercase);
-var numbers= prompt("Do you want to include numbers?");
+var numbers= confirm("Do you want to include numbers?");
 console.log(numbers);
-var special= prompt("Do you want to include special characters?");
+var special= confirm("Do you want to include special characters?");
 console.log(special);
-var smallLetters=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+var smallLetters=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+var bigLetters=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+var integer=[0,1,2,3,4,5,6,7,8,9];
+var symbol=["!,#,$,%,&,',(,),*,+,,,-,.,/,:,;,<,=,>,?,@,[,\,],^,_,`,{,|,},~,"];
+
 
 // Write password to the #password input
 function writePassword() {
