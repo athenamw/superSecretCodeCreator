@@ -6,8 +6,12 @@ var lowercase= prompt("Do you want to include lowercase letters?");
 console.log(lowercase);
 var uppercase= prompt("Do you want to include uppercase letters?");
 console.log(uppercase);
+var numbers= prompt("Do you want to include numbers?");
+console.log(numbers);
 var special= prompt("Do you want to include special characters?");
 console.log(special);
+
+
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
