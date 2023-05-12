@@ -10,7 +10,7 @@ var numbers= prompt("Do you want to include numbers?");
 console.log(numbers);
 var special= prompt("Do you want to include special characters?");
 console.log(special);
-
+var smallLetters=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 
 // Write password to the #password input
 function writePassword() {
