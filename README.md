@@ -14,3 +14,17 @@ Starter code provided by UC Berkeley. I additionally asked questions through a t
 
 ## License
 N/A
+
+## Deployed Site and Repository Links
+
+[Deployed Site](https://athenamw.github.io/superSecretCodeCreator/)
+
+[Repository](https://github.com/athenamw/superSecretCodeCreator)
+
+[Javascript](https://github.com/athenamw/superSecretCodeCreator/blob/main/Develop/script.js)
+
+[HTML](https://github.com/athenamw/superSecretCodeCreator/blob/main/Develop/index.html)
+
+[CSS](https://github.com/athenamw/superSecretCodeCreator/blob/main/Develop/style.css)
+
+## Screenshot
