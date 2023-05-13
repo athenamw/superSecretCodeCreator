@@ -12,14 +12,25 @@ console.log(numbers);
 var special= confirm("Do you want to include special characters?");
 console.log(special);
 //arrays
-var smallLetters=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
-var bigLetters=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
-var integers=[0,1,2,3,4,5,6,7,8,9];
-var symbols=["!,#,$,%,&,(,),*,+,-,.,/,:,<,=,>,?,@,^,_,`,{,|,},~,"];
-
+const smallLetters=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+const bigLetters=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+const integers=[0,1,2,3,4,5,6,7,8,9];
+const symbols=["!,#,$,%,&,(,),*,+,-,.,/,:,<,=,>,?,@,^,_,`,{,|,},~,"];
+var generator=[];
 //function loops to generate passwords
-
-
+if(lowercase === true){
+  generator=generator.concat(smallLetters);
+}
+if(uppercase === true){
+  generator=generator.concat(smallLetters, bigLetters);
+}
+if(numbers === true){
+  generator=generator.concat(smallLetters, bigLetters,integers);
+}
+if(special === true){
+  generator=generator.concat(smallLetters, bigLetters, integers, symbols);
+}
+console.log(generator);
 
 // Write password to the #password input
 function writePassword() {
