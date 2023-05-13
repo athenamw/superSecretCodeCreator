@@ -52,8 +52,8 @@ function generatePassword() {
 
   for(var i=0; i<pswdLength; i++){
     var rndnum = Math.floor(Math.random() * 86);
-    //var index = rndnum % generator.length;
-    password = password.concat(generator[rndnum]);
+    var index = rndnum % generator.length;
+    password = password.concat(generator[index]);
     console.log(password);
   }
 
