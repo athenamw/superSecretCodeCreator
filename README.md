@@ -21,10 +21,10 @@ N/A
 
 [Repository](https://github.com/athenamw/superSecretCodeCreator)
 
-[Javascript](https://github.com/athenamw/superSecretCodeCreator/blob/main/Develop/script.js)
+[Javascript](https://github.com/athenamw/superSecretCodeCreator/blob/main/script.js)
 
-[HTML](https://github.com/athenamw/superSecretCodeCreator/blob/main/Develop/index.html)
+[HTML](https://github.com/athenamw/superSecretCodeCreator/blob/main/index.html)
 
-[CSS](https://github.com/athenamw/superSecretCodeCreator/blob/main/Develop/style.css)
+[CSS](https://github.com/athenamw/superSecretCodeCreator/blob/main/style.css)
 
 ## Screenshot
