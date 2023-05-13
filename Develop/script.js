@@ -1,8 +1,21 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 //prompt and confirms for user input
+
 function generatePassword() {
-  var pswdLength = prompt("How many characters would you like your password to be?");
+  var pswdLength;
+//verifies password length is valid
+ while(true){
+  pswdLength = prompt("How many characters would you like your password to be?");
+  if(pswdLength <8 || pswdLength >128){
+    alert("Please choose between 8 and 128 characters.")
+    continue;
+    }
+    else {
+      break;
+    }
+ }
+//confirms parameters for password
   console.log(pswdLength);
   var lowercase = confirm("Do you want to include lowercase letters?");
   console.log(lowercase);
@@ -19,9 +32,8 @@ function generatePassword() {
   const symbols = ['!','#','$','%','&','(',')','*','+','-','.','/',':','<','=','>','?','@','^','_','`','{','|','}','~'];
   var generator = [];
 
-
   //if statements to generate passwords
-  if (lowercase === true) {
+   if (lowercase === true) {
     generator = generator.concat(smallLetters);
   }
   if (uppercase === true) {
@@ -34,13 +46,22 @@ function generatePassword() {
     generator = generator.concat(symbols);
   }
   console.log(generator);
+ 
+ 
+  for(var i=0; i<pswdLength; i++);
+
+  var password="";
+  return password;
 }
+
+
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
+
 
 }
 
