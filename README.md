@@ -28,3 +28,4 @@ N/A
 [CSS](https://github.com/athenamw/superSecretCodeCreator/blob/main/style.css)
 
 ## Screenshot
+![Password Generator](./Assets/deployed%20site%20screenshot.png)
